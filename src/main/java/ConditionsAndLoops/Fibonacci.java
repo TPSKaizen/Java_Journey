@@ -12,13 +12,13 @@ public class Fibonacci {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 
-        while (count <= n){
-            int temp = b;
-            b = a+b;
-            a = temp;
-            count++;
+            while ( count <= n ){
+                int temp = b;
+                b = a+b;
+                a = temp;
+                count++;
 
-            System.out.println(b);
+                System.out.println(b);
         }
 
 
