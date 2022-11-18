@@ -32,5 +32,15 @@ public class Input {
         for (int elem : arr) {
             System.out.println(elem);
         }
+
+        //array of objects
+
+        String[] objArr = new String[5];
+
+        for (int i = 0; i < objArr.length; i++) {
+            objArr[i] = in.next();
+        }
+
+        System.out.println(Arrays.toString(objArr));
     }
 }
